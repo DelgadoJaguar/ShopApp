@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <div class="nav-logo">
+        
+        </div>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="menagment.html" id="menagment-display" style="display: none;">Menagment</a>
+            <a href="log-in.html">Sign In</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="log-in">
+            <h1>Sign Up</h1>
+            <p>Fill the input down below</p></br>
+            <span id="alert-user"></span>
+            <div class="sign-input-section">
+                <input id="user-username" placeholder="Username"/></br>
+                <input type="password" id="user-password" placeholder="Password"/></br>
+                <input type="email" id="user-email" placeholder="Email"/></br>
+                <select id="select-admin">
+                    <option value="0">Not Admin</option>
+                    <option value="1">Admin</option>
+                </select>
+                <button class="sign" id="register-user">Sign Up</button>
+            </div>
+            
+        </div>
+        
+    </section>
+   
+    <script src="js/register.js"></script>
+</body>
+</html>

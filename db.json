@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "name": "White Helmet",
+      "description": "White helmet great one good quality ",
+      "price": 350,
+      "image": "https://www.dirtbikexpress.co.uk/images/products/42759_l.jpg",
+      "cateId": 1,
+      "id": 1
+    },
+    {
+      "name": "Black Helmet Metal",
+      "description": "Black helmet best on market ",
+      "price": 450,
+      "image": "https://www.kindpng.com/picc/m/13-131847_agv-k1-black-agv-k1-mono-black-hd.png",
+      "cateId": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Red Helmet",
+      "price": 550,
+      "description": "Red helmet great one good quality ",
+      "image": "http://cdn.shopify.com/s/files/1/1459/5894/products/5e2eb82f36fb9NIS_5469_grande.png?v=1594438586",
+      "cateId": 1,
+      "likes": 0
+    },
+    {
+      "name": "Green Helmet",
+      "description": "Green Helmet best created ever",
+      "price": 250,
+      "image": "https://dainese-cdn.thron.com/delivery/public/image/dainese/22ee6eaf-ab35-4590-af15-fcfc907d8b0b/ramfdh/std/615x615/k-5-s-e2205.jpg",
+      "cateId": 1,
+      "id": 4
+    },
+    {
+      "name": "D-Air System Yellow",
+      "description": "D-Air System Yellow perfect suit",
+      "price": 1200,
+      "image": "https://dainese-cdn.thron.com/delivery/public/image/dainese/213431b8-18b9-4839-b3dd-ad601f11c198/ramfdh/std/270x270/smart-jacket-black.jpg",
+      "cateId": 2,
+      "id": 5
+    },
+    {
+      "name": "Suprass Knee Guard",
+      "description": "Suprass Knee Guard protect your knee from hurting",
+      "price": 170,
+      "image": "https://i.pinimg.com/originals/24/ce/d4/24ced486438ae6696f474c81cd60ace7.png",
+      "cateId": 3,
+      "id": 6
+    },
+    {
+      "name": "Black Motorcycle Boots",
+      "description": "Black Motorcycle Boots waterproof strong",
+      "price": 600,
+      "image": "https://www.pngkey.com/png/full/971-9716817_motorcycle-boots-png-photo-icon-womens-overlord-boots.png",
+      "cateId": 4,
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1
+    },
+    {
+      "categoryId": 2
+    },
+    {
+      "categoryId": 3
+    },
+    {
+      "categoryId": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "delgado",
+      "password": "delgado123",
+      "email": "delgado@gmail.com",
+      "admin": 1
+    },
+    {
+      "username": "cingado",
+      "password": "cingado223",
+      "email": "cingado22@gmail.com",
+      "admin": 0,
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "admin": 1,
+      "id": 2
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "like": 0
+    },
+    {
+      "like": 3,
+      "id": 2
+    },
+    {
+      "like": 3,
+      "id": 3
+    },
+    {
+      "like": 2,
+      "id": 4
+    },
+    {
+      "like": 0,
+      "id": 5
+    },
+    {
+      "like": 0,
+      "id": 6
+    },
+    {
+      "like": 2,
+      "id": 7
+    }
+  ]
+}

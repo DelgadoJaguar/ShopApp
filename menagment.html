@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <div class="nav-logo">
+        
+        </div>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="menagment.html">Menagment</a>
+            <a href="log-in.html">Sing In</a>
+        </div>
+    </div>
+
+    <section class="section-menagment">
+        <div class="add-product">
+            <label>Add product</label><button id="addProduct">+</button>
+        </div>
+        <div id="product-inputs" style="display: none;">
+            <label>Name: </label><input id="name"/>
+            <label>Description: </label><input id="description"/>
+            <label>Price: </label><input id="price"/>
+            <label>Image URL: </label><input id="image"/>
+            <select id="select">
+                <option value="1">Helmet</option>
+                <option value="2">Clothing</option>
+                <option value="3">Protection</option>
+                <option value="4">Boots</option>
+            </select>
+            <button id="add-product-inputs">Add</button>
+            <button id="close-inputs">X</span>
+        </div>
+        <div class="table-products">
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Image</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </section>
+   
+    <script src="js/menagment.js"></script>
+</body>
+</html>

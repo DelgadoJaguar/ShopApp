@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="navigation">
+        <div class="nav-logo">
+        
+        </div>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="menagment.html">Menagment</a>
+            <a href="log-in.html">Sign In</a>
+        </div>
+    </div>
+
+    <div class="section-products">
+        <div id="show-list-products">
+            <img src="images/hamburger.png" style="width: 40px;">
+        </div>
+        <div class="list-products" style="display: none;">
+            <ul>
+                <li id="close-list"><span id="close-products-list">X</span></li>
+
+                <div style="display: flex;">
+                    <li onclick="sortByPrices('lowToHigh')">Low to High</li>
+                    <li onclick="sortByPrices('highToLow')">High to low</li>
+                </div>
+                
+                <li onclick="filterProducts(1)">Helmet</li>
+                <li onclick="filterProducts(2)">Clothing</li>
+                <li onclick="filterProducts(3)">Protection</li>
+                <li onclick="filterProducts(4)">Boots</li>
+                
+            </ul>
+        </div>
+        <div id="hero-products" style="display: flex; flex-wrap: wrap;">
+
+        </div>
+        
+    </div>
+   
+    <script src="js/products.js"></script>
+</body>
+</html>
