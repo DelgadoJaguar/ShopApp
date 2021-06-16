@@ -1,0 +1,41 @@
+
+.hero{
+    background-color: orange;
+    background-image: url('../images/bike.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+}
+
+.hero .text{
+    margin: 0;
+    padding: 20%;
+}
+
+.info-about{
+    display: flex;
+}
+
+.text-info{
+    padding: 100px;
+    padding-top: 150px;
+}
+
+#visit-more{
+    margin-top: 20px;
+}
+
+.image-info {
+    padding: 15px;
+    /* background-image: url('/images/city-6220689_1920.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover; */
+}
+
+.image-info img{
+    width: 100%;
+}

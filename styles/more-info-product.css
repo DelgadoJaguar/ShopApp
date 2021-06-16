@@ -1,0 +1,45 @@
+.product-more-info{
+    display: flex;
+}
+.product-more-info div{
+    margin: 25px;
+}
+.more-info-text{
+    padding-top: 50px;
+}
+.more-info-image{
+    padding-left: 100px;
+}
+#info-image-id{
+    width: 500px;
+}
+#comment-input{
+    width: 280px;   
+    height: 100px;
+}
+#table-comments tr{
+    border: 1px solid rgb(211, 211, 211);
+}
+#comments ul {
+    padding: 0;
+    margin: 0;
+}
+#comments ul li{
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    list-style: none;
+}
+#add-like{
+    padding: 5px 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 204, 255);
+    cursor: pointer;
+}
+#add-like:hover{
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+}

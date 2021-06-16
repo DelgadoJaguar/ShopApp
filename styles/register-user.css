@@ -1,0 +1,39 @@
+.sign-input-section,
+.log-in{
+    text-align: center;
+}
+.sign-input-section input{
+    padding: 10px 25px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.sign-input-section .sign{
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 204, 255);
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.sign-input-section .sign:hover{
+    background-color: rgb(0, 140, 255);
+}
+
+.log-in p {
+    font-weight: 300;
+    margin: 10px;
+}
+.log-in h1 {
+    font-size: 34px;
+}
+.log-in #sign-up {
+    color: rgb(0, 204, 255);
+    font-weight: 600;
+}
+.log-in #sign-up:hover {
+    color: rgb(0, 140, 255);
+}
